@@ -1,0 +1,17 @@
+﻿<Window x:Class="PersonalDataSecurity.DAL.Services.Front.FrontForm"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:PersonalDataSecurity.DAL.Services.Front"
+             mc:Ignorable="d" 
+             Title="Аутентификация" Height="271.875" Width="556.25">
+    <Grid>
+        <TextBox HorizontalAlignment="Left" Height="36" Margin="63,51,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="202" FontFamily="Times New Roman" FontSize="14"/>
+        <TextBox HorizontalAlignment="Left" Height="36" Margin="63,143,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="202" FontSize="14" FontFamily="Times New Roman"/>
+        <Button Content="Ввод" HorizontalAlignment="Left" Margin="323,83,0,0" VerticalAlignment="Top" Width="178" Height="54" FontSize="14" FontFamily="Times New Roman"/>
+        <Label Content="Логин:" HorizontalAlignment="Left" Margin="63,20,0,0" VerticalAlignment="Top" Width="202" FontFamily="Times New Roman" FontSize="16"/>
+        <Label Content="Пароль:" HorizontalAlignment="Left" Margin="63,110,0,0" VerticalAlignment="Top" Width="202" FontFamily="Times New Roman" FontSize="16"/>
+
+    </Grid>
+</Window>
